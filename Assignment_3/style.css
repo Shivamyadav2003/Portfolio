@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+header{
+    width: 100vw;
+    height: 10vh;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container{
+    height:80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
