@@ -1,0 +1,70 @@
+/* ============================= */
+/* BASIC SETUP */
+/* ============================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ============================= */
+/* ROW */
+/* ============================= */
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+    zoom: 1;
+}
+
+.row:before,
+.row:after {
+    content: "";
+    display: table;
+}
+
+.row:after {
+    clear: both;
+}
+
+/* ============================= */
+/* COLUMNS */
+/* ============================= */
+
+.col {
+    float: left;
+    display: block;
+    margin: 1%;
+}
+
+/* ============================= */
+/* 4 COLUMN GRID */
+/* ============================= */
+
+.span-1-of-4 {
+    width: 23%;
+}
+
+/* ============================= */
+/* 2 COLUMN GRID */
+/* ============================= */
+
+.span-1-of-2 {
+    width: 48%;
+}
+
+.span-1-of-3 {
+    width: 31%;
+}
+
+/* ============================= */
+/* RESPONSIVE (MOBILE) */
+/* ============================= */
+
+@media only screen and (max-width: 768px) {
+    .col {
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+}
